@@ -55,6 +55,10 @@ section p{
     font-size: 14px;
 }
 
+section li{
+    display: inline-block;
+}
+
 .icon{
     border-radius: 50%;
     border: 5px solid white;
