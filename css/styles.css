@@ -62,9 +62,7 @@ section li{
 .icon{
     border-radius: 50%;
     border: 5px solid white;
-    /* box-shadow: x y blur color */
     box-shadow: 0 0 5px gray;
-
 }
 
 .works{
@@ -116,4 +114,8 @@ footer p{
 
 .about p{
     text-align: left;
+}
+
+.tab{
+    margin: 24px
 }
