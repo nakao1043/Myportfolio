@@ -7,12 +7,8 @@ body {
 header{
     text-align: right;
     padding: 10px;
-    background-image: 
-    url(../img/header.png);
-    height: 240px;
-    background-size: cover;
-    background-position: 50% 50%;
-    margin-bottom: 60px;
+    height: 30px;
+    margin-bottom: 20px;
 }
 
 header ul{
@@ -42,7 +38,6 @@ header li > a:hover{
 
 section{
     text-align: center;
-
 }
 
 section h1{
@@ -55,10 +50,6 @@ section p{
     font-size: 14px;
 }
 
-section li{
-    display: inline-block;
-}
-
 .icon{
     border-radius: 50%;
     border: 5px solid white;
@@ -66,23 +57,41 @@ section li{
 }
 
 .works{
-    width: 400px;
+    width: 600px;
     margin: 60px auto;
     border-bottom: 1px solid gray;
 }
 
-.works h1, 
+.works h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.works h2{
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .works p{
     text-align: left;
+}
 
+.works li{
+    text-align: left;
+    font-size: 14px;
 }
 
 .works > section{
     margin-bottom: 40px 
 }
 
+.works > section > div{
+    margin-bottom: 30px 
+}
+
 footer{
-    width: 400px;
+    width: 600px;
     margin: 0 auto 60px;
 }
 
